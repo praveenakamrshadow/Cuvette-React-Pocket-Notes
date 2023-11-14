@@ -34,6 +34,17 @@ function Sidebar({ setSelectedGroupName, setSelectedGroupColor}) {
       closeModal();
     }
   };
+
+  const handleDeleteGroupName = () => {
+    if (selectedItemIndex !== -1) {
+      const updatedGroups = [...createdNotesGroups];
+      updatedGroups.splice(selectedItemIndex, 1);
+      setCreatedNotesGroups(updatedGroups);
+      setSelectedItemIndex(-1);
+      setSelectedGroupName(null);
+    }};
+
+  
   const handleListItemClick = (index) => {
     setSelectedItemIndex(index); 
     const selectedGroup = createdNotesGroups[index];
