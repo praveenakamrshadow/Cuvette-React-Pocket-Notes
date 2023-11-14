@@ -1,0 +1,87 @@
+.container1 {
+    width: 30vw;
+    height: 100vh;
+}
+.Btn {
+    display: flex;
+    justify-content: center;
+}
+.createBtn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 0px 20px 5px 20px;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+.createBtn:hover {
+    cursor: pointer;
+    transform: translateY(1px);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.model-data {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-content {
+    width: 40vw;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.modal-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    font-weight: 600;
+}
+
+.modal-button {
+    position: relative;
+    top: 10px;
+    float: right;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.modal-button:hover {
+    cursor: pointer;
+    transform: translateY(1px);
+}
+
+.color.clicked {
+    outline: 3px solid black;
+}
+
+.notes-group {
+    text-transform: "capitalize";
+}

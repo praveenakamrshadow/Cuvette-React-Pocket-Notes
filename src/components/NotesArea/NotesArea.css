@@ -1,0 +1,79 @@
+.container2 {
+    background-color: #f7ecdc;
+    width: 70vw;
+    height: 100vh;
+}
+
+.home {
+    width: 70vw;
+    height: 100vh;
+    background-color: #f7ecdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+.notes-input {
+    width: 69.9vw;
+    background-color: #e8e8e8;
+    position: absolute;
+    bottom: 0px;
+}
+.textarea {
+    width: 63vw;
+    height: 25vh;
+    margin: 1.5em;
+    padding: 2%;
+    border-radius: 10px;
+    resize: none;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+.enter {
+    position: absolute;
+    right: 4%;
+    bottom: 17%;
+}
+
+.enter:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+
+.notes-display {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+    width: 68vw;
+    height: 45vh;
+    overflow-y: auto;
+}
+
+.notes-align {
+    display: flex;
+}
+
+.deleteBtn {
+    padding: 5px 10px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
